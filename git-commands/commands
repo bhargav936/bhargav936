@@ -1,0 +1,64 @@
+ cat README.md
+ 1294  echo "Test - 5" >> README.md
+ 1295  cat README.md
+ 1296  ls
+ 1297  git logs
+ 1298  git status
+ 1299  mkdir recipes
+ 1300  vim recipes/apple_pie.txt
+ 1301  ls
+ 1302  git status
+ 1303  cp -rf recipes menu
+ 1304  cd menu/
+ 1305  ls
+ 1306  rm -rf apple_pie.txt
+ 1307  vim meenu.txt
+ 1308  ls
+ 1309  cd ..
+ 1310  ls
+ 1311  git status
+ 1312  git add .
+ 1313  git status
+ 1314  git commit
+ 1315  git logs
+ 1316  git diff  0d8eb5d1..f828c5c0
+ 1317  ls
+ 1318  git logs
+ 1319  git logs --oneline
+ 1320  git logs
+ 1321  git checkout 4ef500544fd79f5046cfd59803aa2a7c2b8b689e
+ 1322  git checkout f828c5c0ae69d2f2fab8ac3cde76a853a7ec1a26
+ 1323  ls -ltr
+ 1324  git logs
+ 1325  git checkout 4ef500544fd79f5046cfd59803aa2a7c2b8b689e
+ 1326  ls
+ 1327  ls -ltr
+ 1328  cat README.md
+ 1329  git status
+ 1330  ls
+ 1331  cat README.md
+ 1332  git checkout master
+ 1333  ls
+ 1334  cat README.md
+ 1335  ls
+ 1336  rm -rf menu/meenu.txt
+ 1337  vim menu/menu.txt
+ 1338  ls
+ 1339  mv recipes recipe
+ 1340  git status
+ 1341  git add .
+ 1342  git status
+ 1343  git commit -m "New Menu & Recipe Files"
+ 1344  git status
+ 1345  git log
+ 1346  ls
+ 1347  echo "Test 01
+ 1348  echo "Test 01" > Test-1.txt
+ 1349  echo "UAT 01" > UAT-1.txt
+ 1350  ls
+ 1351  git status
+ 1352  git add .
+ 1353  git status
+ 1354  git reset HEAD UAT-1.txt
+ 1355  git status
+ 1356  git commit -m "Added New Test-1 file"
