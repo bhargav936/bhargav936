@@ -1,0 +1,161 @@
+ 1  cd /desktop/git
+    2  cd desktop
+    3  ls
+    4  cd git/
+    5  ls
+    6  git config --global user.name "bhargav936"
+    7  git config --global user.email cbdevil936@gmail.com
+    8  git status
+    9  git init
+   10  git config --global --list
+   11  git status
+   12  ls -a
+   13  git checkout
+   14  git checkout main
+   15  ls -a
+   16  cd
+   17  ls -a
+   18  cat .gitconfig
+   19  git config --list
+   20  cd Desktop/
+   21  cd git
+   22  git config --global core.editor vi
+   23  git config --global help.autocorrect 1
+   24  git config --list
+   25  mkdir git-test
+   26  cd git-test/
+   27  echo "Hello Wolrd" > README.md
+   28  ls
+   29  git status
+   30  git add README.md
+   31  git config --global core.autocrlf false
+   32  git add README.md
+   33  git status
+   34  git commit -m "Added a new Readme file"
+   35  git status
+   36  git log
+   37  echo "Hello Wolrd of git" >> README.md
+   38  git status
+   39  git add README.md
+   40  git status
+   41  git commit -m "Added a new Readme file modified"
+   42  git log
+   43  history
+   44  git clone https://github.com/bhargav936/bhargav936.git
+   45  ls
+   46  cp README.md bhargav936/
+   47  cd bhargav936/
+   48  ls
+   49  git add README.md
+   50  git commit -m "Added a new Readme file modified"
+   51  git log
+   52  git push -u origin main
+   53  git push -u origin main
+   54  cd ..
+   55*
+   56*
+   57  cd bhargav936/
+   58  mkdir git-commands
+   59  git status
+   60  cd git-commands/
+   61  vi commands
+   62  git aff commands
+   63  git add commands
+   64  git commit -m "git commands"
+   65  git push -u origin main
+   66  ls
+   67  cd ..
+   68  ls
+   69  vi README.md
+   70  git add . ; git commit -m ; git push
+   71  git add . ; git commit -m "testing add" ; git push
+   72  git status
+   73  git log
+   74  git diff 2ddf52f..58f8747
+   75  git log --oneline
+   76  ls
+   77  vi README.md
+   78  git add . ; git commit -m "testing done" ; git push
+   79  git log --oneline
+   80  git diff 3b31f7c..60846de
+   81  history
+   82  mkdir devops-class
+   83  cd devops-class/
+   84  git clone https://github.com/amitvashisttech/devops-netmagic-08-Aug-2022.git
+   85  ls
+   86  git add . ; git commit -m "devops class" ; git push
+   87  cd devops-netmagic-08-Aug-2022/
+   88  ls
+   89  git add . ; git commit -m "devops class" ; git push
+   90  ls
+   91  cd ..
+   92  ls
+   93  git add . ; git commit -m "devops class" ; git push
+   94  cd ..
+   95  ls
+   96  cd git-commands/
+   97  echo "test file" > Test-1
+   98  echo "test file" > Test-2
+   99  git status
+  100  git add .
+  101  git status
+  102  git commit -m "done" ; git push
+  103  ls
+  104  git reset HEAD Test-2
+  105  git status
+  106  cat .git/HEAD
+  107  git show head
+  108  cat .git/HEAD
+  109  cd..
+  110  cd ..
+  111  cd ..
+  112  cd ..
+  113  cd git-test/
+  114  cd bhargav936/
+  115  ls
+  116  cd ..
+  117  cd ..
+  118  ls
+  119  cd ..
+  120  ls
+  121  cat .git/head
+  122  cat .git
+  123  cd git/
+  124  ls
+  125  ls -a
+  126  cat .git/HEAD
+  127  ls
+  128  cd git-test/
+  129  ls
+  130  cd bhargav936/
+  131  git init
+  132  cat .git/HEAD
+  133  cat  refs/heads/main
+  134  cat refs/heads/main
+  135  cat .git/refs/heads/main
+  136  git branch cb
+  137  git branch
+  138  git checkout cb
+  139  cat .git/refs/heads/cb
+  140  echo "creating a new file at cb branch" >cb.txt
+  141  git add . ; git commit -m " Branch testing" ; git push
+  142   git push --set-upstream origin cb
+  143  git add . ; git commit -m " Branch testing" ; git push
+  144  cat cb/cb.txt
+  145  ls
+  146  cat cb.txt/cb
+  147  cat cb.txt
+  148  cat .git/refs/heads/cb
+  149  git log
+  150  git log --oneline --graph
+  151  git pull
+  152  git pull
+  153  git pull
+  154  ls
+  155  cat README.md
+  156  git pull
+  157  ls
+  158  cat README.md
+  159  ls
+  160  history
+
